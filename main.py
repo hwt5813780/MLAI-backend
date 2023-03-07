@@ -109,7 +109,7 @@ def chat(prompt):  #定义一个函数
                 ]
         }
         # 发送HTTP请求
-        response = requests.post(url, headers=headers,json=data,proxies=proxies)
+        response = requests.post(url, headers=headers,json=data)
 
         # 解析响应并输出结果
         if response.status_code == 200:
