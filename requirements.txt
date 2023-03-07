@@ -8,4 +8,3 @@ pydantic==1.10.5
 python_docx==0.8.11
 requests==2.28.2
 uvicorn==0.20.0
-~pencv_contrib_python==4.6.0.66

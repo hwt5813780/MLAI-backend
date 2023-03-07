@@ -8,10 +8,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from sutil import cut_sent, replace_char, get_paragraphs_text
 import uvicorn
 import paddlehub as hub
-import cv2
 from paddlenlp import Taskflow
 import time
-import os
 import openai
 import requests
 import json
